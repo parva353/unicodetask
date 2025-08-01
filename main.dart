@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'spiderman',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+       
       ),
       // Define named routes for easy navigation
       initialRoute: '/', // Set the initial route to the login page
@@ -27,3 +27,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
