@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
        
       ),
-      // Define named routes for easy navigation
-      initialRoute: '/', // Set the initial route to the login page
+      
+      initialRoute: '/', 
       routes: {
         '/': (context) => const LoginPage(),
         '/main': (context) => const MainPage(),
@@ -27,4 +27,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
