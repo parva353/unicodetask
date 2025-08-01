@@ -9,7 +9,7 @@ class MainPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Main Page'),
-        automaticallyImplyLeading: false, // Hide back button for main page
+        
       ),
       body: const Center(
         child: Column(
@@ -31,3 +31,4 @@ class MainPage extends StatelessWidget {
     );
   }
 }
+
