@@ -15,11 +15,11 @@ class LoginPage extends StatefulWidget {
       appBar: AppBar(
         title: const Text(
           'Login Page',
-          style: TextStyle(color: Colors.white), // AppBar title color
+          style: TextStyle(color: Colors.white), 
         ),
-        backgroundColor: Colors.transparent, // Transparent AppBar
+        backgroundColor: Colors.transparent, 
         elevation: 0,
-        foregroundColor: Colors.white, // Icons and back button color
+        foregroundColor: Colors.white,
       ),
       body: Center(
         child: SingleChildScrollView(
@@ -38,3 +38,4 @@ class LoginPage extends StatefulWidget {
                 ),
               ),
    
+
